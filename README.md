@@ -47,7 +47,7 @@ Add the following to your ~/.ctags file:
 Add the following to your ~/.vimrc file:
 ----------------------------------------
 
-"gdscript for ctags
+```viml
 let g:tagbar_type_gdscript = {
 			\'ctagstype' :'gdscript',
 			\'kinds':[
@@ -59,4 +59,4 @@ let g:tagbar_type_gdscript = {
 			\'f:functions',
 			\]
 			\}
-
+```
