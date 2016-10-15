@@ -1,0 +1,12 @@
+"gdscript for ctags
+let g:tagbar_type_gdscript = {
+			\'ctagstype' :'gdscript',
+			\'kinds':[
+			\'c:constants',
+			\'e:exports',
+			\'o:onready',
+			\'p:preloads',
+			\'s:signals',
+			\'f:functions',
+			\]
+			\}
